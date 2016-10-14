@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B69BEF31137437E00B6EBA8 /* button_line_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B69BEEF1137437E00B6EBA8 /* button_line_selected.png */; };
+		1B69BEF41137437E00B6EBA8 /* button_ellipse_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B69BEF01137437E00B6EBA8 /* button_ellipse_selected.png */; };
+		1B69BEF51137437E00B6EBA8 /* button_rectangle_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B69BEF11137437E00B6EBA8 /* button_rectangle_selected.png */; };
+		1D3623260D0F684500981E51 /* DudelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DudelAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		231278A1113F2D4500D63CAA /* button_bezier_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2312789F113F2D4500D63CAA /* button_bezier_selected.png */; };
+		231278A2113F2D4500D63CAA /* button_bezier.png in Resources */ = {isa = PBXBuildFile; fileRef = 231278A0113F2D4500D63CAA /* button_bezier.png */; };
+		232B3C4911752AA0002DA833 /* DudelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B3C4811752AA0002DA833 /* DudelEditController.m */; };
+		232B90E8116BCC050006D768 /* FileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B90E7116BCC050006D768 /* FileListViewController.m */; };
+		232B91BA116BF62C0006D768 /* ActionsMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B91B9116BF62C0006D768 /* ActionsMenuController.m */; };
+		232B91BD116BF6DA0006D768 /* ModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B91BC116BF6DA0006D768 /* ModalWebViewController.m */; };
+		232B91C0116BF7040006D768 /* bookInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 232B91BE116BF7040006D768 /* bookInfo.html */; };
+		232B91C1116BF7040006D768 /* booktitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 232B91BF116BF7040006D768 /* booktitle.png */; };
+		232B91DC116BF8360006D768 /* ModalWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B91DB116BF8360006D768 /* ModalWebViewController.xib */; };
+		23508A9F116D27890057B701 /* FileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 23508A9E116D27890057B701 /* FileList.m */; };
+		23508B8E116D4D640057B701 /* FileRenameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23508B8C116D4D640057B701 /* FileRenameViewController.m */; };
+		23508B8F116D4D640057B701 /* FileRenameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23508B8D116D4D640057B701 /* FileRenameViewController.xib */; };
+		23669058115FF78D003C9482 /* button_cdots_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 23669056115FF78D003C9482 /* button_cdots_selected.png */; };
+		23669059115FF78D003C9482 /* button_cdots.png in Resources */ = {isa = PBXBuildFile; fileRef = 23669057115FF78D003C9482 /* button_cdots.png */; };
+		2366905E115FFB34003C9482 /* PencilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2366905D115FFB34003C9482 /* PencilTool.m */; };
+		236FB1C41145B50900449713 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236FB1C31145B50900449713 /* MessageUI.framework */; };
+		239F9EEE1150EC3B0041D32F /* FontListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F9EED1150EC3B0041D32F /* FontListController.m */; };
+		239F9FD911517CCD0041D32F /* FontSizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F9FD711517CCD0041D32F /* FontSizeController.m */; };
+		239F9FDA11517CCD0041D32F /* FontSizeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239F9FD811517CCD0041D32F /* FontSizeController.xib */; };
+		239FA02011518C2E0041D32F /* StrokeWidthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FA01E11518C2E0041D32F /* StrokeWidthController.m */; };
+		239FA02111518C2E0041D32F /* StrokeWidthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FA01F11518C2E0041D32F /* StrokeWidthController.xib */; };
+		239FA02711518E1B0041D32F /* StrokeDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FA02611518E1B0041D32F /* StrokeDemoView.m */; };
+		23A170B01135F0E900D239CB /* DudelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A170AF1135F0E900D239CB /* DudelView.m */; };
+		23A170B81135F24200D239CB /* PathDrawingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A170B71135F24200D239CB /* PathDrawingInfo.m */; };
+		23A170F01135F88700D239CB /* LineTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A170EF1135F88700D239CB /* LineTool.m */; };
+		23A1713D1136014100D239CB /* RectangleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A1713C1136014100D239CB /* RectangleTool.m */; };
+		23A1714D113602AC00D239CB /* EllipseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A1714C113602AC00D239CB /* EllipseTool.m */; };
+		23AB94891148507A00A60791 /* button_text_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AB94881148507A00A60791 /* button_text_selected.png */; };
+		23AB948B1148508200A60791 /* button_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AB948A1148508200A60791 /* button_text.png */; };
+		23AB94901148530A00A60791 /* TextTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AB948F1148530A00A60791 /* TextTool.m */; };
+		23AB94A01148540500A60791 /* TextDrawingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AB949F1148540500A60791 /* TextDrawingInfo.m */; };
+		23AB94A21148590300A60791 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AB94A11148590300A60791 /* CoreText.framework */; };
+		23ED20B8113739F000BE5C91 /* button_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ED20B0113739F000BE5C91 /* button_line.png */; };
+		23ED20B9113739F000BE5C91 /* button_ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ED20B1113739F000BE5C91 /* button_ellipse.png */; };
+		23ED20BA113739F000BE5C91 /* button_rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ED20B2113739F000BE5C91 /* button_rectangle.png */; };
+		23EFD3AE1138A8A800E3E14C /* FreehandTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFD3AD1138A8A800E3E14C /* FreehandTool.m */; };
+		23F1AEFF1152D8B400097C1F /* ColorGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1AEFE1152D8B400097C1F /* ColorGrid.m */; };
+		23F1AF1C1152DF3800097C1F /* SelectColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1AF1A1152DF3800097C1F /* SelectColorController.m */; };
+		23F1AF1D1152DF3800097C1F /* SelectColorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AF1B1152DF3800097C1F /* SelectColorController.xib */; };
+		23F1AF981152F6C000097C1F /* StrokeColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1AF971152F6C000097C1F /* StrokeColorController.m */; };
+		23F1AF9E1152F71800097C1F /* FillColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1AF9D1152F71800097C1F /* FillColorController.m */; };
+		23F1AFD81152FACA00097C1F /* button_fillcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AFD31152FACA00097C1F /* button_fillcolor.png */; };
+		23F1AFD91152FACA00097C1F /* button_fontname.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AFD41152FACA00097C1F /* button_fontname.png */; };
+		23F1AFDA1152FACA00097C1F /* button_fontsize.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AFD51152FACA00097C1F /* button_fontsize.png */; };
+		23F1AFDB1152FACA00097C1F /* button_strokecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AFD61152FACA00097C1F /* button_strokecolor.png */; };
+		23F1AFDC1152FACA00097C1F /* button_strokewidth.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1AFD71152FACA00097C1F /* button_strokewidth.png */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DudelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DudelViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DudelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DudelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B69BEEF1137437E00B6EBA8 /* button_line_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_line_selected.png; sourceTree = "<group>"; };
+		1B69BEF01137437E00B6EBA8 /* button_ellipse_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ellipse_selected.png; sourceTree = "<group>"; };
+		1B69BEF11137437E00B6EBA8 /* button_rectangle_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rectangle_selected.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DudelAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DudelAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DudelAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DudelAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Dudel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dudel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2312789F113F2D4500D63CAA /* button_bezier_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bezier_selected.png; sourceTree = "<group>"; };
+		231278A0113F2D4500D63CAA /* button_bezier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bezier.png; sourceTree = "<group>"; };
+		2312790311408DA800D63CAA /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		232B3C4711752A9F002DA833 /* DudelEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DudelEditController.h; sourceTree = "<group>"; };
+		232B3C4811752AA0002DA833 /* DudelEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DudelEditController.m; sourceTree = "<group>"; };
+		232B90E6116BCC050006D768 /* FileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListViewController.h; sourceTree = "<group>"; };
+		232B90E7116BCC050006D768 /* FileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListViewController.m; sourceTree = "<group>"; };
+		232B91B8116BF62C0006D768 /* ActionsMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsMenuController.h; sourceTree = "<group>"; };
+		232B91B9116BF62C0006D768 /* ActionsMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsMenuController.m; sourceTree = "<group>"; };
+		232B91BB116BF6DA0006D768 /* ModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalWebViewController.h; sourceTree = "<group>"; };
+		232B91BC116BF6DA0006D768 /* ModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalWebViewController.m; sourceTree = "<group>"; };
+		232B91BE116BF7040006D768 /* bookInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bookInfo.html; sourceTree = "<group>"; };
+		232B91BF116BF7040006D768 /* booktitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = booktitle.png; sourceTree = "<group>"; };
+		232B91DB116BF8360006D768 /* ModalWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalWebViewController.xib; sourceTree = "<group>"; };
+		23508A9D116D27890057B701 /* FileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileList.h; sourceTree = "<group>"; };
+		23508A9E116D27890057B701 /* FileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileList.m; sourceTree = "<group>"; };
+		23508B8B116D4D640057B701 /* FileRenameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileRenameViewController.h; sourceTree = "<group>"; };
+		23508B8C116D4D640057B701 /* FileRenameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileRenameViewController.m; sourceTree = "<group>"; };
+		23508B8D116D4D640057B701 /* FileRenameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileRenameViewController.xib; sourceTree = "<group>"; };
+		23669056115FF78D003C9482 /* button_cdots_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_cdots_selected.png; sourceTree = "<group>"; };
+		23669057115FF78D003C9482 /* button_cdots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_cdots.png; sourceTree = "<group>"; };
+		2366905C115FFB34003C9482 /* PencilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PencilTool.h; sourceTree = "<group>"; };
+		2366905D115FFB34003C9482 /* PencilTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PencilTool.m; sourceTree = "<group>"; };
+		236FB1C31145B50900449713 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		239F9EEC1150EC3B0041D32F /* FontListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListController.h; sourceTree = "<group>"; };
+		239F9EED1150EC3B0041D32F /* FontListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListController.m; sourceTree = "<group>"; };
+		239F9FD611517CCD0041D32F /* FontSizeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeController.h; sourceTree = "<group>"; };
+		239F9FD711517CCD0041D32F /* FontSizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeController.m; sourceTree = "<group>"; };
+		239F9FD811517CCD0041D32F /* FontSizeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontSizeController.xib; sourceTree = "<group>"; };
+		239FA01D11518C2E0041D32F /* StrokeWidthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeWidthController.h; sourceTree = "<group>"; };
+		239FA01E11518C2E0041D32F /* StrokeWidthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeWidthController.m; sourceTree = "<group>"; };
+		239FA01F11518C2E0041D32F /* StrokeWidthController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrokeWidthController.xib; sourceTree = "<group>"; };
+		239FA02511518E1B0041D32F /* StrokeDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeDemoView.h; sourceTree = "<group>"; };
+		239FA02611518E1B0041D32F /* StrokeDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeDemoView.m; sourceTree = "<group>"; };
+		23A170AE1135F0E900D239CB /* DudelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DudelView.h; sourceTree = "<group>"; };
+		23A170AF1135F0E900D239CB /* DudelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DudelView.m; sourceTree = "<group>"; };
+		23A170B61135F24200D239CB /* PathDrawingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDrawingInfo.h; sourceTree = "<group>"; };
+		23A170B71135F24200D239CB /* PathDrawingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDrawingInfo.m; sourceTree = "<group>"; };
+		23A170EE1135F88700D239CB /* LineTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineTool.h; sourceTree = "<group>"; };
+		23A170EF1135F88700D239CB /* LineTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineTool.m; sourceTree = "<group>"; };
+		23A1713B1136014100D239CB /* RectangleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleTool.h; sourceTree = "<group>"; };
+		23A1713C1136014100D239CB /* RectangleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleTool.m; sourceTree = "<group>"; };
+		23A1714B113602AC00D239CB /* EllipseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipseTool.h; sourceTree = "<group>"; };
+		23A1714C113602AC00D239CB /* EllipseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipseTool.m; sourceTree = "<group>"; };
+		23AB94881148507A00A60791 /* button_text_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_text_selected.png; sourceTree = "<group>"; };
+		23AB948A1148508200A60791 /* button_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_text.png; sourceTree = "<group>"; };
+		23AB948E1148530A00A60791 /* TextTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTool.h; sourceTree = "<group>"; };
+		23AB948F1148530A00A60791 /* TextTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTool.m; sourceTree = "<group>"; };
+		23AB949E1148540500A60791 /* TextDrawingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDrawingInfo.h; sourceTree = "<group>"; };
+		23AB949F1148540500A60791 /* TextDrawingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextDrawingInfo.m; sourceTree = "<group>"; };
+		23AB94A11148590300A60791 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		23EA976111349EA3009AC4D7 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		23EA976211349F51009AC4D7 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		23ED20B0113739F000BE5C91 /* button_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_line.png; sourceTree = "<group>"; };
+		23ED20B1113739F000BE5C91 /* button_ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ellipse.png; sourceTree = "<group>"; };
+		23ED20B2113739F000BE5C91 /* button_rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rectangle.png; sourceTree = "<group>"; };
+		23EFD3AC1138A8A800E3E14C /* FreehandTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreehandTool.h; sourceTree = "<group>"; };
+		23EFD3AD1138A8A800E3E14C /* FreehandTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreehandTool.m; sourceTree = "<group>"; };
+		23F1AEFD1152D8B400097C1F /* ColorGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGrid.h; sourceTree = "<group>"; };
+		23F1AEFE1152D8B400097C1F /* ColorGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGrid.m; sourceTree = "<group>"; };
+		23F1AF191152DF3800097C1F /* SelectColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectColorController.h; sourceTree = "<group>"; };
+		23F1AF1A1152DF3800097C1F /* SelectColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectColorController.m; sourceTree = "<group>"; };
+		23F1AF1B1152DF3800097C1F /* SelectColorController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectColorController.xib; sourceTree = "<group>"; };
+		23F1AF961152F6C000097C1F /* StrokeColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeColorController.h; sourceTree = "<group>"; };
+		23F1AF971152F6C000097C1F /* StrokeColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeColorController.m; sourceTree = "<group>"; };
+		23F1AF9C1152F71800097C1F /* FillColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillColorController.h; sourceTree = "<group>"; };
+		23F1AF9D1152F71800097C1F /* FillColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillColorController.m; sourceTree = "<group>"; };
+		23F1AFD31152FACA00097C1F /* button_fillcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_fillcolor.png; sourceTree = "<group>"; };
+		23F1AFD41152FACA00097C1F /* button_fontname.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_fontname.png; sourceTree = "<group>"; };
+		23F1AFD51152FACA00097C1F /* button_fontsize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_fontsize.png; sourceTree = "<group>"; };
+		23F1AFD61152FACA00097C1F /* button_strokecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_strokecolor.png; sourceTree = "<group>"; };
+		23F1AFD71152FACA00097C1F /* button_strokewidth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_strokewidth.png; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DudelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DudelViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DudelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DudelViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DudelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DudelViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Dudel_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dudel_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Dudel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dudel-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				236FB1C41145B50900449713 /* MessageUI.framework in Frameworks */,
+				23AB94A21148590300A60791 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23EA976111349EA3009AC4D7 /* SynthesizeSingleton.h */,
+				23EA975D11349E64009AC4D7 /* Tools */,
+				1D3623240D0F684500981E51 /* DudelAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DudelAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DudelViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DudelViewController.m */,
+				23A170AE1135F0E900D239CB /* DudelView.h */,
+				23A170AF1135F0E900D239CB /* DudelView.m */,
+				23A170B61135F24200D239CB /* PathDrawingInfo.h */,
+				23A170B71135F24200D239CB /* PathDrawingInfo.m */,
+				2312790311408DA800D63CAA /* Drawable.h */,
+				23AB949E1148540500A60791 /* TextDrawingInfo.h */,
+				23AB949F1148540500A60791 /* TextDrawingInfo.m */,
+				239F9EEC1150EC3B0041D32F /* FontListController.h */,
+				239F9EED1150EC3B0041D32F /* FontListController.m */,
+				239F9FD611517CCD0041D32F /* FontSizeController.h */,
+				239F9FD711517CCD0041D32F /* FontSizeController.m */,
+				239F9FD811517CCD0041D32F /* FontSizeController.xib */,
+				239FA01D11518C2E0041D32F /* StrokeWidthController.h */,
+				239FA01E11518C2E0041D32F /* StrokeWidthController.m */,
+				239FA01F11518C2E0041D32F /* StrokeWidthController.xib */,
+				239FA02511518E1B0041D32F /* StrokeDemoView.h */,
+				239FA02611518E1B0041D32F /* StrokeDemoView.m */,
+				23F1AEFD1152D8B400097C1F /* ColorGrid.h */,
+				23F1AEFE1152D8B400097C1F /* ColorGrid.m */,
+				23F1AF191152DF3800097C1F /* SelectColorController.h */,
+				23F1AF1A1152DF3800097C1F /* SelectColorController.m */,
+				23F1AF1B1152DF3800097C1F /* SelectColorController.xib */,
+				23F1AF961152F6C000097C1F /* StrokeColorController.h */,
+				23F1AF971152F6C000097C1F /* StrokeColorController.m */,
+				23F1AF9C1152F71800097C1F /* FillColorController.h */,
+				23F1AF9D1152F71800097C1F /* FillColorController.m */,
+				232B90E6116BCC050006D768 /* FileListViewController.h */,
+				232B90E7116BCC050006D768 /* FileListViewController.m */,
+				232B91B8116BF62C0006D768 /* ActionsMenuController.h */,
+				232B91B9116BF62C0006D768 /* ActionsMenuController.m */,
+				232B91BB116BF6DA0006D768 /* ModalWebViewController.h */,
+				232B91BC116BF6DA0006D768 /* ModalWebViewController.m */,
+				23508A9D116D27890057B701 /* FileList.h */,
+				23508A9E116D27890057B701 /* FileList.m */,
+				23508B8B116D4D640057B701 /* FileRenameViewController.h */,
+				23508B8C116D4D640057B701 /* FileRenameViewController.m */,
+				23508B8D116D4D640057B701 /* FileRenameViewController.xib */,
+				232B3C4711752A9F002DA833 /* DudelEditController.h */,
+				232B3C4811752AA0002DA833 /* DudelEditController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Dudel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EA975D11349E64009AC4D7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				23EA976211349F51009AC4D7 /* Tool.h */,
+				2366905C115FFB34003C9482 /* PencilTool.h */,
+				2366905D115FFB34003C9482 /* PencilTool.m */,
+				23A170EE1135F88700D239CB /* LineTool.h */,
+				23A170EF1135F88700D239CB /* LineTool.m */,
+				23A1713B1136014100D239CB /* RectangleTool.h */,
+				23A1713C1136014100D239CB /* RectangleTool.m */,
+				23A1714B113602AC00D239CB /* EllipseTool.h */,
+				23A1714C113602AC00D239CB /* EllipseTool.m */,
+				23EFD3AC1138A8A800E3E14C /* FreehandTool.h */,
+				23EFD3AD1138A8A800E3E14C /* FreehandTool.m */,
+				23AB948E1148530A00A60791 /* TextTool.h */,
+				23AB948F1148530A00A60791 /* TextTool.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				236FB1C31145B50900449713 /* MessageUI.framework */,
+				23AB94A11148590300A60791 /* CoreText.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Dudel_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				231278A0113F2D4500D63CAA /* button_bezier.png */,
+				2312789F113F2D4500D63CAA /* button_bezier_selected.png */,
+				23669056115FF78D003C9482 /* button_cdots_selected.png */,
+				23669057115FF78D003C9482 /* button_cdots.png */,
+				23ED20B1113739F000BE5C91 /* button_ellipse.png */,
+				1B69BEF01137437E00B6EBA8 /* button_ellipse_selected.png */,
+				23ED20B0113739F000BE5C91 /* button_line.png */,
+				1B69BEEF1137437E00B6EBA8 /* button_line_selected.png */,
+				23ED20B2113739F000BE5C91 /* button_rectangle.png */,
+				1B69BEF11137437E00B6EBA8 /* button_rectangle_selected.png */,
+				23AB948A1148508200A60791 /* button_text.png */,
+				23AB94881148507A00A60791 /* button_text_selected.png */,
+				23F1AFD31152FACA00097C1F /* button_fillcolor.png */,
+				23F1AFD41152FACA00097C1F /* button_fontname.png */,
+				23F1AFD51152FACA00097C1F /* button_fontsize.png */,
+				23F1AFD61152FACA00097C1F /* button_strokecolor.png */,
+				23F1AFD71152FACA00097C1F /* button_strokewidth.png */,
+				232B91DB116BF8360006D768 /* ModalWebViewController.xib */,
+				2899E5210DE3E06400AC0155 /* DudelViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Dudel-Info.plist */,
+				232B91BE116BF7040006D768 /* bookInfo.html */,
+				232B91BF116BF7040006D768 /* booktitle.png */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Dudel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Dudel" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dudel;
+			productName = Dudel;
+			productReference = 1D6058910D05DD3D006BFB54 /* Dudel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dudel" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Dudel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DudelViewController.xib in Resources */,
+				23ED20B8113739F000BE5C91 /* button_line.png in Resources */,
+				23ED20B9113739F000BE5C91 /* button_ellipse.png in Resources */,
+				23ED20BA113739F000BE5C91 /* button_rectangle.png in Resources */,
+				1B69BEF31137437E00B6EBA8 /* button_line_selected.png in Resources */,
+				1B69BEF41137437E00B6EBA8 /* button_ellipse_selected.png in Resources */,
+				1B69BEF51137437E00B6EBA8 /* button_rectangle_selected.png in Resources */,
+				231278A1113F2D4500D63CAA /* button_bezier_selected.png in Resources */,
+				231278A2113F2D4500D63CAA /* button_bezier.png in Resources */,
+				23AB94891148507A00A60791 /* button_text_selected.png in Resources */,
+				23AB948B1148508200A60791 /* button_text.png in Resources */,
+				239F9FDA11517CCD0041D32F /* FontSizeController.xib in Resources */,
+				239FA02111518C2E0041D32F /* StrokeWidthController.xib in Resources */,
+				23F1AF1D1152DF3800097C1F /* SelectColorController.xib in Resources */,
+				23F1AFD81152FACA00097C1F /* button_fillcolor.png in Resources */,
+				23F1AFD91152FACA00097C1F /* button_fontname.png in Resources */,
+				23F1AFDA1152FACA00097C1F /* button_fontsize.png in Resources */,
+				23F1AFDB1152FACA00097C1F /* button_strokecolor.png in Resources */,
+				23F1AFDC1152FACA00097C1F /* button_strokewidth.png in Resources */,
+				23669058115FF78D003C9482 /* button_cdots_selected.png in Resources */,
+				23669059115FF78D003C9482 /* button_cdots.png in Resources */,
+				232B91C0116BF7040006D768 /* bookInfo.html in Resources */,
+				232B91C1116BF7040006D768 /* booktitle.png in Resources */,
+				232B91DC116BF8360006D768 /* ModalWebViewController.xib in Resources */,
+				23508B8F116D4D640057B701 /* FileRenameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DudelAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DudelViewController.m in Sources */,
+				23A170B01135F0E900D239CB /* DudelView.m in Sources */,
+				23A170B81135F24200D239CB /* PathDrawingInfo.m in Sources */,
+				23A170F01135F88700D239CB /* LineTool.m in Sources */,
+				23A1713D1136014100D239CB /* RectangleTool.m in Sources */,
+				23A1714D113602AC00D239CB /* EllipseTool.m in Sources */,
+				23EFD3AE1138A8A800E3E14C /* FreehandTool.m in Sources */,
+				23AB94901148530A00A60791 /* TextTool.m in Sources */,
+				23AB94A01148540500A60791 /* TextDrawingInfo.m in Sources */,
+				239F9EEE1150EC3B0041D32F /* FontListController.m in Sources */,
+				239F9FD911517CCD0041D32F /* FontSizeController.m in Sources */,
+				239FA02011518C2E0041D32F /* StrokeWidthController.m in Sources */,
+				239FA02711518E1B0041D32F /* StrokeDemoView.m in Sources */,
+				23F1AEFF1152D8B400097C1F /* ColorGrid.m in Sources */,
+				23F1AF1C1152DF3800097C1F /* SelectColorController.m in Sources */,
+				23F1AF981152F6C000097C1F /* StrokeColorController.m in Sources */,
+				23F1AF9E1152F71800097C1F /* FillColorController.m in Sources */,
+				2366905E115FFB34003C9482 /* PencilTool.m in Sources */,
+				232B90E8116BCC050006D768 /* FileListViewController.m in Sources */,
+				232B91BA116BF62C0006D768 /* ActionsMenuController.m in Sources */,
+				232B91BD116BF6DA0006D768 /* ModalWebViewController.m in Sources */,
+				23508A9F116D27890057B701 /* FileList.m in Sources */,
+				23508B8E116D4D640057B701 /* FileRenameViewController.m in Sources */,
+				232B3C4911752AA0002DA833 /* DudelEditController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Dudel_Prefix.pch;
+				INFOPLIST_FILE = "Dudel-Info.plist";
+				PRODUCT_NAME = Dudel;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Dudel_Prefix.pch;
+				INFOPLIST_FILE = "Dudel-Info.plist";
+				PRODUCT_NAME = Dudel;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Dudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

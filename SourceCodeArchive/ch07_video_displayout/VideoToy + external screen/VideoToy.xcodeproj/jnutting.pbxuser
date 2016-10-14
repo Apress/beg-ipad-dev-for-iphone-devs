@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* VideoToyAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 605}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 474}";
+		};
+	};
+	1D3623250D0F684500981E51 /* VideoToyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {795, 630}}";
+			sepNavSelRange = "{601, 0}";
+			sepNavVisRange = "{45, 1060}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* VideoToy */ = {
+		activeExec = 0;
+		executables = (
+			232062AC11B7E4ED00146AA1 /* VideoToy */,
+		);
+	};
+	232062AC11B7E4ED00146AA1 /* VideoToy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VideoToy;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	232062B711B7E51000146AA1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	232062B811B7E51000146AA1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	232062B911B7E6F300146AA1 /* VideoCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 797}}";
+			sepNavSelRange = "{566, 0}";
+			sepNavVisRange = "{0, 723}";
+		};
+	};
+	232062BA11B7E6F300146AA1 /* VideoCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1125}}";
+			sepNavSelRange = "{673, 0}";
+			sepNavVisRange = "{331, 987}";
+		};
+	};
+	2320630511B82A2700146AA1 /* notes.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 605}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 139}";
+		};
+	};
+	2320630D11B82BD500146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2320630511B82A2700146AA1 /* notes.txt */;
+		name = "notes.txt: 2";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	2320631F11B82CA000146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* VideoToyAppDelegate.h */;
+		name = "VideoToyAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	2320632A11B82CD000146AA1 /* VideoToyViewController.m:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		functionName = "-tableView:heightForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		location = VideoToy;
+		modificationTime = 297283179.859464;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	2320633B11B82CF600146AA1 /* VideoToyAppDelegate.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* VideoToyAppDelegate.m */;
+		functionName = "-application:didFinishLaunchingWithOptions:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = VideoToy;
+		modificationTime = 297283187.829538;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	2320634311B82D3D00146AA1 /* VideoToyViewController.m:82 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		functionName = "-numberOfSectionsInTableView:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 82;
+		location = VideoToy;
+		modificationTime = 297283181.077676;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	2320634511B82D3E00146AA1 /* VideoToyViewController.m:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		functionName = "-tableView:numberOfRowsInSection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = VideoToy;
+		modificationTime = 297283182.281573;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	2320634711B82D4600146AA1 /* VideoToyViewController.m:90 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 90;
+		location = VideoToy;
+		modificationTime = 297283183.611329;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	232063D911B8405500146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* VideoToyAppDelegate.m */;
+		name = "VideoToyAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 711;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 0;
+	};
+	2320641D11B85D3D00146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2320641E11B85D3D00146AA1 /* UIScreenMode.h */;
+		name = "UIScreenMode.h: 14";
+		rLen = 56;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 0;
+	};
+	2320641E11B85D3D00146AA1 /* UIScreenMode.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIScreenMode.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScreenMode.h;
+		sourceTree = "<absolute>";
+	};
+	2320642611B85D7200146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* VideoToyViewController.h */;
+		name = "VideoToyViewController.h: 11";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 0;
+	};
+	2320643E11B85F2A00146AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 232062B911B7E6F300146AA1 /* VideoCell.h */;
+		name = "VideoCell.h: 23";
+		rLen = 0;
+		rLoc = 566;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	2377CBD411B999D700B6A07F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2377CBD511B999D700B6A07F /* UIScreen.h */;
+		name = "UIScreen.h: 19";
+		rLen = 0;
+		rLoc = 705;
+		rType = 0;
+		vrLen = 1682;
+		vrLoc = 0;
+	};
+	2377CBD511B999D700B6A07F /* UIScreen.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIScreen.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScreen.h;
+		sourceTree = "<absolute>";
+	};
+	2377CBDA11B999DF00B6A07F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 232062BA11B7E6F300146AA1 /* VideoCell.m */;
+		name = "VideoCell.m: 33";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 331;
+	};
+	23FE695711C82CC5009A9B5E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		name = "VideoToyViewController.m: 38";
+		rLen = 0;
+		rLoc = 877;
+		rType = 0;
+		vrLen = 2113;
+		vrLoc = 136;
+	};
+	23FE698111C83854009A9B5E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */;
+		name = "VideoToyViewController.m: 38";
+		rLen = 0;
+		rLoc = 877;
+		rType = 0;
+		vrLen = 1865;
+		vrLoc = 238;
+	};
+	28D7ACF60DDB3853001CB0EB /* VideoToyViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 655}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 582}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* VideoToyViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 2408}}";
+			sepNavSelRange = "{877, 0}";
+			sepNavVisRange = "{136, 2107}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 232062AC11B7E4ED00146AA1 /* VideoToy */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* VideoToy */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* VideoToy */,
+		);
+		breakpoints = (
+			2320632A11B82CD000146AA1 /* VideoToyViewController.m:78 */,
+			2320633B11B82CF600146AA1 /* VideoToyAppDelegate.m:25 */,
+			2320634311B82D3D00146AA1 /* VideoToyViewController.m:82 */,
+			2320634511B82D3E00146AA1 /* VideoToyViewController.m:86 */,
+			2320634711B82D4600146AA1 /* VideoToyViewController.m:90 */,
+		);
+		codeSenseManager = 232062B811B7E51000146AA1 /* Code sense */;
+		executables = (
+			232062AC11B7E4ED00146AA1 /* VideoToy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					674,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					634,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 298331328;
+			PBXWorkspaceStateSaveDate = 298331328;
+		};
+		perUserProjectItems = {
+			2320630D11B82BD500146AA1 /* PBXTextBookmark */ = 2320630D11B82BD500146AA1 /* PBXTextBookmark */;
+			2320631F11B82CA000146AA1 /* PBXTextBookmark */ = 2320631F11B82CA000146AA1 /* PBXTextBookmark */;
+			232063D911B8405500146AA1 /* PBXTextBookmark */ = 232063D911B8405500146AA1 /* PBXTextBookmark */;
+			2320641D11B85D3D00146AA1 /* PBXTextBookmark */ = 2320641D11B85D3D00146AA1 /* PBXTextBookmark */;
+			2320642611B85D7200146AA1 /* PBXTextBookmark */ = 2320642611B85D7200146AA1 /* PBXTextBookmark */;
+			2320643E11B85F2A00146AA1 /* PBXTextBookmark */ = 2320643E11B85F2A00146AA1 /* PBXTextBookmark */;
+			2377CBD411B999D700B6A07F /* PBXTextBookmark */ = 2377CBD411B999D700B6A07F /* PBXTextBookmark */;
+			2377CBDA11B999DF00B6A07F /* PBXTextBookmark */ = 2377CBDA11B999DF00B6A07F /* PBXTextBookmark */;
+			23FE695711C82CC5009A9B5E /* PBXTextBookmark */ = 23FE695711C82CC5009A9B5E /* PBXTextBookmark */;
+			23FE698111C83854009A9B5E /* PBXTextBookmark */ = 23FE698111C83854009A9B5E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 232062B711B7E51000146AA1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

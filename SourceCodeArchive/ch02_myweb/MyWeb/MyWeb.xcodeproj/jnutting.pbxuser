@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* MyWeb */ = {
+		activeExec = 0;
+		executables = (
+			236669C011ED1410000E53EB /* MyWeb */,
+		);
+	};
+	236669C011ED1410000E53EB /* MyWeb */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MyWeb;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	236669C511ED1433000E53EB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	236669C611ED1433000E53EB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 236669C011ED1410000E53EB /* MyWeb */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MyWeb */;
+		codeSenseManager = 236669C611ED1433000E53EB /* Code sense */;
+		executables = (
+			236669C011ED1410000E53EB /* MyWeb */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 300749840;
+			PBXWorkspaceStateSaveDate = 300749840;
+		};
+		sourceControlManager = 236669C511ED1433000E53EB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

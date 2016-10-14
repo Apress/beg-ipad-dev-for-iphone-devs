@@ -1,0 +1,2 @@
+In MainWindow.xib, select Video Toy View Controller and remove nib name from its attributes.
+Remove VideoToyViewController.xib from project

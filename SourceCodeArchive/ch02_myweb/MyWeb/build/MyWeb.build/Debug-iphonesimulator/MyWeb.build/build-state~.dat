@@ -1,0 +1,256 @@
+TMyWeb
+v7
+r0
+t300749889.563307
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/Info.plist" MyWeb-Info.plist
+cCompileXIB "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib"
+cCompileXIB "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib"
+cProcessPCH /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch.gch MyWeb_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/main.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebAppDelegate.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebViewController.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb" normal i386
+cGenerateDSYMFile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app.dSYM" "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb"
+cTouch "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app"
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.h
+c000000004C3652FD0000000000000170
+t1278628605
+s368
+i<UIKit/UIKit.h>
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m
+c000000004C3652E30000000000000235
+t1278628579
+s565
+i"MyWebAppDelegate.h"
+i"MyWebViewController.h"
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.h
+c000000004C3652E90000000000000127
+t1278628585
+s295
+i<UIKit/UIKit.h>
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m
+c000000004C3652EE00000000000005CC
+t1278628590
+s1484
+i"MyWebViewController.h"
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib
+c000000004BC3ABA30000000000004CF5
+t1271114659
+s19701
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib
+c000000004BC41158000000000000536A
+t1271140696
+s21354
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWeb_Prefix.pch
+c000000004BC3ABA300000000000000B3
+t1271114659
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app
+t1279057089
+s238
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app.dSYM
+t1279057089
+s102
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/Info.plist
+t1279057088
+s790
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MainWindow.nib
+t1279057088
+s1119
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb
+t1279057089
+s17848
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWebViewController.nib
+t1279057088
+s1236
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/PkgInfo
+t1279057088
+s8
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWeb.LinkFileList
+c000000004C3CDCC00000000000000243
+t1279057088
+s579
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebAppDelegate.o
+t1279057089
+s43864
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebViewController.o
+t1279057089
+s46108
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/main.o
+t1279057089
+s6532
+
+N/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m
+c000000004C3652D40000000000000104
+t1278628564
+s260
+i<UIKit/UIKit.h>
+
+N/var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch.gch
+t1279057089
+s13830032
+
+NMyWeb-Info.plist
+c000000004BC3ABA300000000000004D6
+t1271114659
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300749888#300749888#0(0"0(0#1#0"8641945024#0"0#
+
+CCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebAppDelegate.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300749889.444635
+e300749889.516977
+r1
+xCompileC
+xbuild/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebAppDelegate.o
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@139"Compile /Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m300749889#300749889#0(0"0(0#0#131"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m8606970976#2741"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-generated-files.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-own-target-headers.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-all-target-headers.hmap" -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-project-headers.hmap" "-F/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/include" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources/i386" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources" -include /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch -c "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebAppDelegate.m" -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebAppDelegate.o"0#
+
+CCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebViewController.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300749889.446197
+e300749889.524443
+r1
+xCompileC
+xbuild/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebViewController.o
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@142"Compile /Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m300749889#300749889#0(0"0(0#0#134"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m8601979072#2747"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-generated-files.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-own-target-headers.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-all-target-headers.hmap" -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-project-headers.hmap" "-F/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/include" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources/i386" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources" -include /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch -c "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/Classes/MyWebViewController.m" -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWebViewController.o"0#
+
+CCompileC build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/main.o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300749889.442874
+e300749889.500329
+r1
+xCompileC
+xbuild/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/main.o
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m300749889#300749889#0(0"0(0#0#111"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m8609817472#2709"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-generated-files.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-own-target-headers.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-all-target-headers.hmap" -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-project-headers.hmap" "-F/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/include" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources/i386" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources" -include /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch -c "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/main.m" -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib"
+s300749888.401950
+e300749888.775105
+r1
+xCompileXIB
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300749888#300749888#0(0"0(0#0#119"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib8611635904#872"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MainWindow.nib" "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MainWindow.xib" --sdk /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib"
+s300749888.402690
+e300749888.818021
+r1
+xCompileXIB
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib
+lSLF07#2@34"CompileXIB MyWebViewController.xib300749888#300749888#0(0"0(0#0#128"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib8590450752#890"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWebViewController.nib" "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWebViewController.xib" --sdk /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app.dSYM" "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb"
+s300749889.543377
+e300749889.560081
+r1
+xGenerateDSYMFile
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app.dSYM
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/MyWeb.app.dSYM build/Debug-iphonesimulator/MyWeb.app/MyWeb300749889#300749889#0(0"0(0#0#148"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb8630039808#656"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/usr/bin/dsymutil "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb" -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app.dSYM"0#
+
+CLd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb" normal i386
+s300749889.524546
+e300749889.543233
+r1
+xLd
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb
+xnormal
+xi386
+lSLF07#2@153"Link /Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb300749889#300749889#0(0"0(0#0#0"8638275584#1330"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" "-F/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" -filelist "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/Objects-normal/i386/MyWeb.LinkFileList" -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/MyWeb"0#
+
+CProcessInfoPlistFile "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/Info.plist" MyWeb-Info.plist
+s300749888.398297
+e300749888.401862
+r1
+xProcessInfoPlistFile
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/Info.plist
+xMyWeb-Info.plist
+lSLF07#2@24"Process MyWeb-Info.plist300749888#300749888#0(0"0(0#0#121"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWeb-Info.plist8612715456#727"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyWeb-Info.plist -genpkginfo "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app/Info.plist"0#
+
+CProcessPCH /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch.gch MyWeb_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300749888.818174
+e300749889.442694
+r1
+xProcessPCH
+x/var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch.gch
+xMyWeb_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile MyWeb_Prefix.pch300749888#300749889#0(0"0(0#0#121"/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWeb_Prefix.pch8640587040#2535"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-generated-files.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-own-target-headers.hmap" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-all-target-headers.hmap" -iquote "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/MyWeb-project-headers.hmap" "-F/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/include" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources/i386" "-I/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/MyWeb.build/Debug-iphonesimulator/MyWeb.build/DerivedSources" -c "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/MyWeb_Prefix.pch" -o /var/folders/Ar/ArM19e1uEF0hWQzFPLs51++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-bjtuwhkfxfppxwezzusjyismybvq/MyWeb_Prefix.pch.gch0#
+
+CTouch "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app"
+s300749889.560176
+e300749889.563244
+r1
+xTouch
+x/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app
+lSLF07#2@148"Touch /Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app300749889#300749889#0(0"0(0#0#0"8612691872#462"    cd "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb"    setenv PATH "/Developer_323_iphone_sdk_4_gm_seed/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer_323_iphone_sdk_4_gm_seed/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/jnutting/work/Beginning iPad Development for iPhone Developers/SourceCodeArchive/ch02_myweb/MyWeb/build/Debug-iphonesimulator/MyWeb.app"0#
+
